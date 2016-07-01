@@ -7,7 +7,7 @@ get("/") do
   erb(:index)
 end
 
-get('/output') do
-  @output = params.fetch('search_word').ruby_word_counter
-  erb(:output)
+get('/search') do
+  @search = params.fetch('search').ruby_word_counter()
+  erb(:search)
 end
