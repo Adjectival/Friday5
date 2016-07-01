@@ -8,6 +8,6 @@ get("/") do
 end
 
 get('/output') do
-  @output = params.fetch('input').ruby_word_counter
+  @output = params.fetch('search_word').ruby_word_counter
   erb(:output)
 end
