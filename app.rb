@@ -7,7 +7,10 @@ get("/") do
   erb(:index)
 end
 
-get('/search') do
-  @search = params.fetch('search').ruby_word_counter()
-  erb(:search)
+get('/results') do
+  @search = params.fetch('search')
+  @within = params.fetch('within')
+  @times = params.fetch('within').ruby_word_counter(@search,@within)
+  erb(:results)
+
 end

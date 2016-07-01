@@ -1,7 +1,7 @@
 class String
-  define_method(:ruby_word_counter) do |search|
+  define_method(:ruby_word_counter) do |search,within|
     results_array = []
-    words = self.split(" ")
+    words = within.split(" ")
     words.each() do |word|
       if word == search
         results_array.push(word)
