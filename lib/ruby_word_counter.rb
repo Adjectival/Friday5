@@ -1,9 +1,9 @@
 class String
-  define_method(:ruby_word_counter) do |search,within|
+  define_method(:ruby_word_counter) do |find|
     counter=0
-    words = within.split(" ")
-    words.each() do |word|
-      if word == search
+    words_to_search = self.split(" ")
+    words_to_search.each() do |word|
+      if find == word
         counter+=1
       end
     end

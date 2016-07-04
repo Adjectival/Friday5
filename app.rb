@@ -8,9 +8,9 @@ get("/") do
 end
 
 get('/results') do
-  @search = params.fetch('search')
+  @find = params.fetch('find')
   @within = params.fetch('within')
-  @times = params.fetch('within').ruby_word_counter(@search,@within)
+  @times = params.fetch('within').ruby_word_counter(@find)
   erb(:results)
 
 end
