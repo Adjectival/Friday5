@@ -1,4 +1,4 @@
-# Ruby Word Counter_
+# Ruby Word Counter
 
 #### _String Frequency App in Ruby_
 ##  _an Epicodus Project, July 2016_
@@ -6,24 +6,31 @@
 
 ## Description
 
-_Website can accept a string of many words and letters: user can find the number of times a desired word (or jumble of letters) occurs._
+_Ruby Word Counter is an app that counts a word in a given string and then displays the count._
 
 ## Specifications
 
-* _When user gives website a search word (or word fragment) and clicks the Check button, site will store and then display this word._  
-  **_User inputs Word "ould", clicks Check._**
-  **_Website displays: "ould"._**
+_Website checks to see how many times a word shows up in a string, displays this number along with search word and search string._  
+  User input:
 
-<!-- * _When user additionally inputs a sentence or string to search, website counts to see how many times the given word shows up and also displays this result._
-  **_Word Input: "ould"
-  **_String Input: "How much wood could a woodchuck chuck if a woodchuck could chuck wood?"._**
-  **_Website displays: "ould" x 2_**
+   * _do_
+   * _how do you do_
+
+  Website displays:
+
+   * We counted:
+   * _do_
+   * _2 times_ in the string
+   * _how do you do_
 
 
-## Test Drive at Heroku
+
+
+## See it Now at Heroku
 
 _This web app is available at:_
-  **_  _** -->
+# https://gorgeous-lake-clark-45624.herokuapp.com/
+
 
 ## Support and contact details
 
@@ -33,7 +40,7 @@ _* learnhowtoprogram.com * ruby-lang.org * w3schools.com * getbootstrap.com_
 
 ## Technologies Used
 
-_Ruby 2.2, Bootstrap_
+_Ruby 2.2, Bootstrap, MVC architecture_
 
 ### Legal
 
